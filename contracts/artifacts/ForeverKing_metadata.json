@@ -1,0 +1,54 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "sendEther",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/foreverKing.sol": "ForeverKing"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/foreverKing.sol": {
+			"keccak256": "0x5912a7bb7d2337659cddaaa04934aa58698f331d93891432b65971131d965997",
+			"urls": [
+				"bzz-raw://1aa4bae11ca23cade7bcd439e9fa9f70922065e6588c950aa6244dfb1a926a27",
+				"dweb:/ipfs/QmZF3EjAhhQCETD6XD1VKSRK46UKDFHi9Wh3eS1vGV8f3z"
+			]
+		}
+	},
+	"version": 1
+}

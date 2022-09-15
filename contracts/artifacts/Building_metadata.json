@@ -1,0 +1,60 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "isLastFloor",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/buildingHack.sol": "Building"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/buildingHack.sol": {
+			"keccak256": "0xfc2dc62df7372dadc1ef9bd31e319a9a16218730bb4b07610b37525136adbacd",
+			"urls": [
+				"bzz-raw://14a1693f2fdbf6981776ab85460a3d326e9567a5629fc1ecc64be2de7999b12a",
+				"dweb:/ipfs/QmSmy4Kh1pi6Zfs4DW8jLor4RjGrvbpwbguaZG5VgQvspY"
+			]
+		}
+	},
+	"version": 1
+}

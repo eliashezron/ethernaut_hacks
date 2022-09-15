@@ -1,0 +1,78 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "bool",
+						"name": "success",
+						"type": "bool"
+					}
+				],
+				"name": "Entered",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_gateAddr",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_gas",
+						"type": "uint256"
+					}
+				],
+				"name": "enterGate",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/gateoneHack.sol": "GatePassOne"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/gateoneHack.sol": {
+			"keccak256": "0x44e41763531b77365b047ef86962bb67a265c4ce7a1f183043130ae724d19335",
+			"urls": [
+				"bzz-raw://2f21ac8a91e17647af4c934de90653517ce881f29712647f7812f06d2a62971c",
+				"dweb:/ipfs/QmTuEvsYCbnkxQvWdjeqPEUxptzD3RhFQ1CM73EdBfEH8J"
+			]
+		}
+	},
+	"version": 1
+}

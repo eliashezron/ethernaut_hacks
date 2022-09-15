@@ -1,0 +1,53 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "sendFunds",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"force.sol": "Hack"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"force.sol": {
+			"keccak256": "0xed4ba00635b4976813e6e37d3ca99fd818dfc0e50417605ccfafb52c850a6a8b",
+			"urls": [
+				"bzz-raw://239de6d2928f666729e3e5c945d653ce142764680abebfb6bb16f609e6e54001",
+				"dweb:/ipfs/QmdLvArL6VzBnRbQT9wZMCeqPQdDdUumU1vV2hkb5ZLVK8"
+			]
+		}
+	},
+	"version": 1
+}

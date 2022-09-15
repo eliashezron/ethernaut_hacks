@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_address",
+						"type": "address"
+					}
+				],
+				"name": "changeOwner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "telephone",
+				"outputs": [
+					{
+						"internalType": "contract Telephone",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/hacktelephone.sol": "Hacktelephone"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/hacktelephone.sol": {
+			"keccak256": "0xc589fe7dfd3b697058abf32fb109fbb76e65c81f03f9f6b2670fba845eb5df6d",
+			"urls": [
+				"bzz-raw://ce97615e966b8f132b181e1b28c119a33137dd98d26ea1f1b9d2951edd82465a",
+				"dweb:/ipfs/QmVnEk6Ls5rfVJ8JGyEFc2hz8Ryc1qAL5LHWww4RCtgbCr"
+			]
+		},
+		"contracts/telephone.sol": {
+			"keccak256": "0xe6ec4c399542b01eb4ecb4fb45c7d042a0bbb059e7bb3a66477cfdb46b1cf94a",
+			"urls": [
+				"bzz-raw://4333320245baf80cd0eef99e5c3353c3e25b4a07db3cb9d83c59250c35ab8231",
+				"dweb:/ipfs/QmWdGN3oYGjaEHHgSeF3LLRQ1KGEyDoZAKMmuT2uejY6tS"
+			]
+		}
+	},
+	"version": 1
+}

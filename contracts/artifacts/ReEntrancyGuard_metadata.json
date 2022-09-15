@@ -1,0 +1,40 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/reentranceHack.sol": "ReEntrancyGuard"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/reentranceHack.sol": {
+			"keccak256": "0x04f1ae06fabc16b4f068584b9a70b7751d7c3b8779f72cea857f678854ed0357",
+			"urls": [
+				"bzz-raw://93a221c367dccc6d1aa09828561a6dc11df7a59636cab3c8737bc2ccdee55235",
+				"dweb:/ipfs/QmaSgKRj5gdzVWQtyg5K8KNwdNb3gqNAwq7GNGScKqqBDe"
+			]
+		}
+	},
+	"version": 1
+}

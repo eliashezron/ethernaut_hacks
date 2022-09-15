@@ -1,0 +1,85 @@
+{
+	"compiler": {
+		"version": "0.8.1+commit.df193b15"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_token",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "hackTransfer",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "token",
+				"outputs": [
+					{
+						"internalType": "contract Token",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/ethernautTokenHack.sol": "HackToken"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/ethernautToken.sol": {
+			"keccak256": "0xc3ea9d87433a6f773c98fa4e31f92711c9ebedfaf29b9c7361181d22a913f1c5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://afc3172ec0ff8a08128870124a662ba2fcdf262a614db41f2efcf83e6aceca94",
+				"dweb:/ipfs/QmSukdAcBLgbsTCr4DzgAvyHAdz87fNCpNkrzVmeoVimvj"
+			]
+		},
+		"contracts/ethernautTokenHack.sol": {
+			"keccak256": "0x5880bd1640429f8f1415fed0e64c51cd122754683bb7d3c1ad5c1023b5a95325",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://82af74c36a93dcd3c785aef103fc507e952b2dfd74517bc150c262b81f8ca0da",
+				"dweb:/ipfs/QmTyhT7XtA2xKSTqibk3dvQgZpD2qndXQiPXMXELvcFVho"
+			]
+		}
+	},
+	"version": 1
+}

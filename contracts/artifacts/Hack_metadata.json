@@ -1,0 +1,59 @@
+{
+	"compiler": {
+		"version": "0.8.14+commit.80d49f37"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getsig",
+				"outputs": [
+					{
+						"internalType": "bytes",
+						"name": "",
+						"type": "bytes"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/hackdelegatecall.sol": "Hack"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/hackdelegatecall.sol": {
+			"keccak256": "0x713ebf839d79e3af3e4d49063a4e95c6fd3f961cc4bf790ebeea6c13024d29ff",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://01da9c16ac89f320743e4fc0c03fab92fb92523c1be145c488e7407eb76794ad",
+				"dweb:/ipfs/QmanV5KFf8hTb4nnvdMouTuQzpcGV6EZ8hBd3WLhRdAcWq"
+			]
+		}
+	},
+	"version": 1
+}

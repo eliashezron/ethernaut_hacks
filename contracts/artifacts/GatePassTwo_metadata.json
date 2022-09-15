@@ -1,0 +1,52 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_gateAddr",
+						"type": "address"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/gateTwoHack.sol": "GatePassTwo"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/gateTwoHack.sol": {
+			"keccak256": "0x6b4535e4c5c94cfe239cf16877fc7b81a78e5fcd5cbe28c80b93c65f81345c0c",
+			"urls": [
+				"bzz-raw://4b584481c796db9f9fc68df80bf7988073d34fc2e854cec169fe119fb38f6a10",
+				"dweb:/ipfs/QmXQNit51VfFZYq3HCsY4ajcdTHKumR19vrgcVbN97xqDv"
+			]
+		}
+	},
+	"version": 1
+}
